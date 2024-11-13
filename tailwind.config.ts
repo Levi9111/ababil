@@ -67,6 +67,10 @@ export default {
         'text-glow': '0 0 8px rgba(255, 255, 255, 0.5)',
         'inner-glow': 'inset 0 0 8px rgba(0, 0, 0, 0.3)',
       },
+      backgroundImage: {
+        'dark-overlay':
+          "linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/path-to-your-image.jpg')",
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
